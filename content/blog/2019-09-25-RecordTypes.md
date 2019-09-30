@@ -43,7 +43,7 @@ Along with the ability to quickly verify any type, nominal subtyping allows us t
 
 
 ### Immutability
-We decided to make record types immutable as it is considered best practice to make value types immutable. One key reason is that mutation of a value type only changes that specific copy. This is morally equivalent to creating a new record as the other copies remain unchanged. Therefore, when thinking about values, it logically follows to think of this new record as a different value, and thus, not a mutation at all.
+We decided to make record types immutable as it is considered best practice to make value types immutable. One key reason is that mutation of a value type only changes that specific copy. This is morally equivalent to creating a new record as the other copies remain unchanged. Therefore, when thinking about values, it is logical to think of this new record as a different value, and thus, not a mutation at all.
 
 ### Instantiation
 To instantiate a new record with a previously declared record type, we use the following format:
